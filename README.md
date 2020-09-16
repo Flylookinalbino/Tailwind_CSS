@@ -7,7 +7,7 @@
 > npm init
 
 3. Download Tailwind CSS and PostCSS-CIL and autoprefixer
-> npm instal tailwindcss postcss-cli autoprefixer
+> npm install tailwindcss postcss-cli autoprefixer
 
 4. Customise tailwind.config.js 
 > npx tailwind init
