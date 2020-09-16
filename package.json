@@ -1,0 +1,22 @@
+{
+  "name": "tailwind_project",
+  "version": "1.0.0",
+  "description": "Working on Designing Tailwind Website",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/css/tailwind.css -o dist/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flylookinalbino/Tailwind_CSS.git"
+  },
+  "author": "Flylookinablino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Flylookinalbino/Tailwind_CSS/issues"
+  },
+  "homepage": "https://github.com/Flylookinalbino/Tailwind_CSS#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}
