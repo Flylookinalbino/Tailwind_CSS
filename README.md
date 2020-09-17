@@ -20,7 +20,7 @@
 6. Create a folder and file called dist/css/tailwind.css
 
 7. Create scripts in package.json
-> "build:css":"tailwind src/css/tailwind.css -o dist/css/tailwind.css"
+> "build:css":"tailwind build src/css/tailwind.css -o dist/css/tailwind.css"
 
 8. Build Tailwind CSS
 > npm run build:css
