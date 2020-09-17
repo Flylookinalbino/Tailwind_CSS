@@ -5,8 +5,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tailwind Project</title>
         <link rel="stylesheet" type="text/css" href="./css/tailwind.css">
+        <link href="./css/fontAwesome.css">
     </head>
-    <body>
-        <h1 class="tracking-widest text-4xl text-center text-blue-500">Hello World!</h1>
+    <body class="bg-gray-300">
+        <div class="m-auto max-w-md sm:max-w-lg lg:max-w-full">
+            <header class="text-center shadow-lg rounded p-1">
+                <svg class="stroke-current text-blue-500 inline-block" width="55" height="55" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <span class="inline-block text-4xl justify-center font-normal tracking-widest mr-1 align-middle ">Flylookin<span class="text-blue-500">ALBINO</span></span>
+            </header>
+            <!-- Section Left -->
+            <div class="flex bg-gray-100">
+                <section class="lg:w-1/2 ml-4 lg:py-24 lg:px-12">
+                    <img class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover sm:object-center lg:hidden" src="./img/Tools.jpg" alt="furniture">
+                    <h1 class="mt-6 font-bold tracking-widest text-2xl text-gray-900 leading-tight bg-cover sm:text-3xl sm:mt-8 lg:text-2xl">You can work from anywhere. 
+                        <span class="text-blue-500">Take advantage of it.</span> 
+                    </h1>
+                    <p class="mt-2 text-gray-600 sm:text-xl sm:mt-4">
+                        FlylookinAlbino helps design websites using latest HTML5 <span class="text-blue-500">Tailwind CSS</span>. Allowing Cleaner Responsive Design for small to mid businesses. 
+                    </p>
+                    <div class="mt-4 sm:mt-6">
+                        <a href="#" class="text-sm inline-block bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-5 py-3 shadow-lg uppercase tracking-wider font-semibold sm:text-base">Book Your Website</a>
+                    </div>
+                </section>
+                <!-- Section Right -->
+                <section class="lg:w-1/2 lg:relative">
+                    <img class="hidden absolute inset-0 h-full w-full object-cover object-center lg:block" src="./img/Tools.jpg" alt="furniture">
+                </section>
+            </div>
+        </div>
     </body>
 </html>
+<!-- 
+   Positioning to other elements
+   Container style
+   Text style
+ -->

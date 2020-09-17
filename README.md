@@ -26,3 +26,5 @@
 > npm run build:css
 
 9. link dist/css/tailwind.css to your html and start using.
+
+
